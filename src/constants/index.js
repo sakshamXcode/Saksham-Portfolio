@@ -33,7 +33,7 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Education",
   },
   {
     id: "contact",
@@ -55,7 +55,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Artificial Intelligence",
     icon: creator,
   },
 ];
@@ -117,6 +117,18 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Senior Secondary School",
+    company_name: "M.G Convent School, Lucknow.",
+    icon: tesla,
+    iconBg: "#E6DEDD",
+    date: "April 2020 - May 2021",
+    points: [
+      "Studied core subjects including Mathematics, Physics, Chemistry, and Computer Science, achieving a strong academic performance.",
+      "Participated in various science and technology competitions, demonstrating a keen interest in computer science and engineering.",
+      "Engaged in extracurricular activities such as debating and public speaking, enhancing communication and critical thinking skills.",
+    ],
+  },
+  {
     title: "School of Computer Engineering",
     company_name: `Kalinga Institute of Industrial Technology, Bhubaneswar.`,
     icon: starbucks,
@@ -131,18 +143,7 @@ const experiences = [
           "Participating in hackathons & internships to gain real-world experience and industry insights.",
     ],
   },
-  {
-    title: "Senior Secondary School",
-    company_name: "M.G Convent School, Lucknow.",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "April 2020 - May 2021",
-    points: [
-      "Studied core subjects including Mathematics, Physics, Chemistry, and Computer Science, achieving a strong academic performance.",
-      "Participated in various science and technology competitions, demonstrating a keen interest in computer science and engineering.",
-      "Engaged in extracurricular activities such as debating and public speaking, enhancing communication and critical thinking skills.",
-    ],
-  },
+  
   // {
   //   title: "Web Developer",
   //   company_name: "Shopify",
@@ -203,8 +204,8 @@ const projects = [
   {
     name: "Swadishtha",
     description:
-      "The Food Delivery App is a web application designed to facilitate the ordering and delivery of food from local restaurants. Users can browse through menus, place orders, and track deliveries in real-time. The app focuses on providing a seamless and intuitive user experience, with features like restaurant filtering, cart management, and order tracking.",
-    tags: [
+"The Food Delivery App allows users to order food from local restaurants, track deliveries in real-time, and manage their cart. It focuses on a seamless user experience with features like restaurant filtering and order tracking, with cart management and more..."
+  ,  tags: [
       {
         name: "react",
         color: "blue-text-gradient",
@@ -245,7 +246,7 @@ const projects = [
   {
     name: "React-Quiz",
     description:
-      "The React Quiz project is a web-based quiz application built using React and Vite. It allows users to take quizzes on various topics, with features like multiple-choice questions, score tracking, and instant feedback. The project is designed to be fast and responsive, providing a smooth user experience.",
+      "The React Quiz app allows users to take quizzes on various topics with features like multiple-choice questions, score tracking, and instant feedback. Built with React and Vite, it offers a fast, responsive user experience.",
     tags: [
       {
         name: "reactjs",
